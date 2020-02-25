@@ -24,7 +24,9 @@ public class Test1 {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\evita.ritina\\chromedriver.exe");
+    //    System.setProperty("webdriver.chrome.driver","C:\\Users\\evita.ritina\\chromedriver.exe");
+
+        System.setProperty("webdriver.chrome.driver","C:\\devtools\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
